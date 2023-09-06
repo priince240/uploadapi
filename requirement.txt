@@ -1,0 +1,30 @@
+##############################################################
+##############################################################
+
+!!!!!require pip
+=pip install django
+=pip install djangorestfamework
+
+!!!!for database postgressql
+=pip install psycopg2
+
+command for server-----------
+
+python manage.py runserver
+
+
+
+---------------------important url ------------------------------
+http://127.0.0.1:8000/   #simple home page
+
+http://127.0.0.1:8000/signup/                                 #for signup the user
+http://127.0.0.1:8000/login/                                  #for login the user
+http://127.0.0.1:8000/download/id    eg.={'id':'[1,2,3]'}      #for download the file the user
+http://127.0.0.1:8000/getdata                                 #for retrive data the user an post the data
+http://127.0.0.1:8000/getdata/id                              #for perform crud operation for each data
+
+
+
+
+    authentication use==== [sessionauthentication]
+    permission use ======= [isauthenticated]
